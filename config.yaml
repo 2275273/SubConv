@@ -34,192 +34,78 @@ HEAD:
     - +.microsoft*.com
     - localhost.ptlogin2.qq.com
 TEST_URL: https://www.gstatic.com/generate_204
-RULESET:
-- - 🤖 ChatBot
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/OpenAi.list
-- - 🤖 ChatBot
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/ChatBot.list
-- - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/LocalAreaNetwork.list
-- - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/UnBan.list
-- - 🛑 广告拦截
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanAD.list
-- - 🍃 应用净化
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanProgramAD.list
-- - 🛑 广告拦截
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanEasyList.list
-- - 🛑 广告拦截
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanEasyListChina.list
-- - 🛡️ 隐私防护
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanEasyPrivacy.list
-- - 📢 谷歌FCM
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/GoogleFCM.list
-- - 📢 谷歌服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Google.list
-- - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Adobe.list
-- - Ⓜ️ 微软Bing
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Bing.list
-- - Ⓜ️ 微软云盘
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/OneDrive.list
-- - Ⓜ️ 微软服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Microsoft.list
-- - 🍎 苹果服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Apple.list
-- - 📲 电报消息
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Telegram.list
-- - 🎶 网易音乐
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/NetEaseMusic.list
-- - 🎶 Spotify
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Spotify.list
-- - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Epic.list
-- - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Origin.list
-- - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Sony.list
-- - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Steam.list
-- - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Nintendo.list
-- - 📹 油管视频
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/YouTube.list
-- - 🎥 奈飞视频
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Netflix.list
-- - 📺 巴哈姆特
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Bahamut.list
-- - 📺 哔哩哔哩
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/BilibiliHMT.list
-- - 📺 哔哩哔哩
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Bilibili.list
-- - 🌏 国内媒体
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaMedia.list
-- - 🌍 国外媒体
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ProxyMedia.list
-- - 🚀 节点选择
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ProxyGFWlist.list
-- - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaIp.list
-- - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaDomain.list
-- - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaCompanyIp.list
-- - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Download.list
-- - 🎯 全球直连
-  - '[]GEOIP,CN'
-- - 🐟 漏网之鱼
-  - '[]FINAL'
-CUSTOM_PROXY_GROUP:
-- name: ♻️ 自动选择
-  type: url-test
-  rule: false
-- name: 🚀 手动切换1
-  type: select
-  manual: true
-  rule: false
-- name: 🚀 手动切换2
-  type: select
-  manual: true
-  rule: false
-- name: 🔯 故障转移
-  type: fallback
-  rule: false
-- name: 🔮 负载均衡
-  type: load-balance
-  rule: false
-- name: 🔮 香港负载均衡
-  type: load-balance
-  rule: false
-  regex: 🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港
-- name: 🤖 ChatBot
-  type: select
-  prior: PROXY
-- name: 📲 电报消息
-  type: select
-  prior: PROXY
-- name: 📹 油管视频
-  type: select
-  prior: PROXY
-- name: 🎥 奈飞视频
-  type: select
-  prior: PROXY
-- name: 📺 巴哈姆特
-  type: select
-  prior: PROXY
-- name: 📺 哔哩哔哩
-  type: select
-  prior: DIRECT
-- name: 🌍 国外媒体
-  type: select
-  prior: PROXY
-- name: 🌏 国内媒体
-  type: select
-  prior: DIRECT
-- name: 📢 谷歌FCM
-  type: select
-  prior: DIRECT
-- name: 📢 谷歌服务
-  type: select
-  prior: PROXY
-- name: Ⓜ️ 微软Bing
-  type: select
-  prior: PROXY
-- name: Ⓜ️ 微软云盘
-  type: select
-  prior: DIRECT
-- name: Ⓜ️ 微软服务
-  type: select
-  prior: DIRECT
-- name: 🍎 苹果服务
-  type: select
-  prior: DIRECT
-- name: 🎮 游戏平台
-  type: select
-  prior: DIRECT
-- name: 🎶 网易音乐
-  type: select
-  prior: DIRECT
-- name: 🎶 Spotify
-  type: select
-  prior: DIRECT
-- name: 🎯 全球直连
-  type: select
-  prior: DIRECT
-- name: 🛑 广告拦截
-  type: select
-  prior: REJECT
-- name: 🍃 应用净化
-  type: select
-  prior: REJECT
-- name: 🛡️ 隐私防护
-  type: select
-  prior: REJECT
-- name: 🐟 漏网之鱼
-  type: select
-  prior: PROXY
-- name: 🇭🇰 香港节点
-  type: url-test
-  rule: false
-  regex: 🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港
-- name: 🇨🇳 台湾节点
-  type: url-test
-  rule: false
-  regex: 🇹🇼|TW|Taiwan|新北|彰化|CHT|台|HINET
-- name: 🇸🇬 狮城节点
-  type: url-test
-  rule: false
-  regex: 🇸🇬|SG|Singapore|狮城|^新[^节北]|[^刷更]新[^节北]
-- name: 🇯🇵 日本节点
-  type: url-test
-  rule: false
-  regex: 🇯🇵|JP|Japan|Tokyo|Osaka|Saitama|东京|大阪|埼玉|日
-- name: 🇰🇷 韩国节点
-  type: url-test
-  rule: false
-  regex: 🇰🇷|KO?R|Korea|首尔|韩|韓
-- name: 🇺🇸 美国节点
-  type: url-test
-  rule: false
-  regex: 🇺🇸|US|America|United.*?States|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥
+;设置规则标志位
+;ruleset=🎯 全球直连,[]IP-CIDR,10.0.0.183/300,DIRECT,no-resolve(表示183-300网段的局域网机器走直连)
+;ruleset=🎯 全球直连,[]DST-PORT,80(80端口的走直连)
+;ruleset=🎯 全球直连,[]SRC-PORT,7777(目标源端口是7777的走直连)
+;ruleset=🎯 全球直连,[]PROCESS-NAME,curl(进程名称是curl的走直连)
+;ruleset=🎯 全球直连,[]IP-CIDR,10.0.0.183/300,DIRECT,no-resolve(表示183-300网段的局域网机器走直连)
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=🌏 黑名单,https://raw.githubusercontent.com/2275273/subconverter/main/heimingdan.ini
+ruleset=📲 电报消息,https://raw.githubusercontent.com/2275273/subconverter/main/job.ini
+ruleset=🎮 自用直连,https://raw.githubusercontent.com/2275273/subconverter/main/zhilian.list
+ruleset=🎮 自用节点网站,https://raw.githubusercontent.com/2275273/subconverter/main/jiedian.list
+ruleset=🎮 游戏商城HB等,https://raw.githubusercontent.com/2275273/subconverter/main/guowaishangcheng.list
+ruleset=🎮 STEAM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+ruleset=🎮 Epic,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+;ruleset=🎯 全球直连,https://raw.githubusercontent.com/2275273/subconverter/main/Clash/GoogleCNProxyIP.list
+ruleset=🎯 全球直连,ttps://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🎯 全球直连,hhttps://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+;ruleset=🎯 全球直连,[]GEOIP,LAN
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=💬 OpenAi,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+ruleset=Ⓜ️ 微软Bing,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
+ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=🎵 TIKTOK,https://raw.githubusercontent.com/2275273/subconverter/main/Clash/tiktok.list
+ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
+ruleset=🐟 漏网之鱼,[]FINAL
+;设置分组标志位
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*`[]♻️ 自动选择
+custom_proxy_group=🚀 手动切换`select`[]DIRECT`.*`[]♻️ 自动选择
+custom_proxy_group=🚀 我的自用节点`select`[]DIRECT`.*`[]♻️ 自动选择
+custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🎮 自用直连`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🎮 Epic`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🎮 STEAM`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🎮 自用节点网站`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🎮 游戏商城HB等`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=📲 电报消息`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=💬 OpenAi`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=Ⓜ️ 微软Bing`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=📹 油管视频`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🎵 TIKTOK`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=📺 巴哈姆特`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🌍 国外媒体`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=📢 谷歌FCM`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=Ⓜ️ 微软云盘`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]REJECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT`[]♻️ 自动选择
+custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT`[]♻️ 自动选择
+custom_proxy_group=🌏 黑名单`select`[]REJECT`[]DIRECT`[]♻️ 自动选择
+custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`[]🚀 我的自用节点`[]♻️ 自动选择
+enable_rule_generator=true
+overwrite_original_rules=true
