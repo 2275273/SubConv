@@ -127,7 +127,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -135,7 +134,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -143,7 +141,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -151,7 +148,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -159,7 +155,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -167,7 +162,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -175,7 +169,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -183,7 +176,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -191,7 +183,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -199,7 +190,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -207,7 +197,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -215,7 +204,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -223,7 +211,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -231,7 +218,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -239,7 +225,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -247,7 +232,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -255,7 +239,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -263,7 +246,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -271,7 +253,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
@@ -297,7 +278,6 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   proxies:
     - DIRECT
-    - 🚀 节点选择
     - 🚀 手动切换
     - 🚀 我的自用节点
     - ♻️ 自动选择
