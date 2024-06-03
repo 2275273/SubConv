@@ -112,10 +112,6 @@ RULESET:
 - - 🐟 漏网之鱼
   - '[]FINAL'
 CUSTOM_PROXY_GROUP:
-- name: 🚀 节点选择
-  type: select
-  rule: false
-  prior: DIRECT
 - name: 🚀 手动切换
   type: select
   manual: true
