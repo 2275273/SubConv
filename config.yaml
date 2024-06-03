@@ -127,97 +127,97 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🎮 Epic
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🎮 STEAM
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🎮 自用节点网站
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🎮 游戏商城HB等
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🎮 游戏平台
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🎯 全球直连
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 📲 电报消息
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 💬 OpenAi
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: Ⓜ️ 微软Bing
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 📹 油管视频
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🎵 TIKTOK
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 📺 巴哈姆特
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🌍 国外媒体
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🌏 国内媒体
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 📢 谷歌FCM
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: Ⓜ️ 微软云盘
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: Ⓜ️ 微软服务
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🍎 苹果服务
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
 - name: 🛑 广告拦截
   type: select
   rule: true
@@ -237,4 +237,4 @@ TEST_URL: https://www.gstatic.com/generate_204
   type: select
   rule: true
   prior: DIRECT
-  proxies: [DIRECT, 🚀 节点选择, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
+  proxies: [DIRECT, 🚀 手动切换, 🚀 我的自用节点, ♻️ 自动选择]
