@@ -44,7 +44,3 @@ CUSTOM_PROXY_GROUP:
 - name: 🎮 自用节点网站
   type: select
   rule: false
-  proxies:
-    - DIRECT
-    - *
-    - ♻️ 自动选择
