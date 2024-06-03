@@ -113,20 +113,3 @@ TEST_URL: https://www.gstatic.com/generate_204
   manual: true
   rule: false
   prior: DIRECT
-- name: 🚀 我的自用节点
-  type: select
-  rule: false
-  prior: DIRECT
-- name: ♻️ 自动选择
-  type: url-test
-  rule: false
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  timeout: 50
-- name: 🐟 漏网之鱼
-  type: select
-  proxies:
-    - DIRECT
-    - 🚀 手动切换
-    - 🚀 我的自用节点
-    - ♻️ 自动选择
